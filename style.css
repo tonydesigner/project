@@ -1,0 +1,18 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+html, body{height: 100vh; font-family: 'Roboto', sans-serif;}
+
+.brd{border: 1px solid;}
+.center{display: flex; justify-content: center; align-items: center;}
+.margin{display: flex; justify-content: space-around; align-items: center;}
+.space{display: flex; justify-content: space-between; align-items: center;}
+
+.modal{ width: 100vw;height: 100vh;background-color: rgba(0,0,0,.2);display: none; }
+.acao{animation: acao 1s ease-out; width: 350px; height: 150px; background-color: #fff;}
+
+table{width: 100%;}
+
+@keyframes acao {
+  0%{ transform:  translateY(-50px);opacity: 0;}
+  100%{transform: translateY();}
+}
