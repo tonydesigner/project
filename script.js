@@ -12,6 +12,8 @@ $(function(){
     [
       {prod:'Cartões de Visita', med:'9x5 cm' , cor:'4/0' , val: .069},
       {prod:'Folheto', med:'10x14 cm' , cor:'4/0' , val: .152},
+      {prod:'Imã', med:'10x14 cm' , cor:'4/0' , val: .252},
+      {prod:'Cartaz', med:'10x14 cm' , cor:'4/0' , val: 7.5},
     ]
 
   dados.map((i, index)=>{
