@@ -1,6 +1,6 @@
 $(function(){
   $('body').keypress((e)=>{
-   let key = e.key
+   let key = e.keyCode
 
     if(key == 50){
      $('.modal').css('display','flex')
@@ -36,12 +36,16 @@ $(function(){
             ${i.prod}
           </td>
           <td>
-            ${total}
+            R$ ${total.toFixed(2)}
           </td>
        `)
      }
     })
     sel.val()
+	$('.modal').click(()=>{
+
+		alert('cliquei no modal')
+	})
       
     
   })
